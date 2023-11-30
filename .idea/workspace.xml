@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79dbcd3f-cd24-41a7-9342-59f4d386e862" name="Changes" comment="">
+    <list default="true" id="79dbcd3f-cd24-41a7-9342-59f4d386e862" name="Changes" comment="aight">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory_management_technique/LabReport4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory_management_technique/LabReport4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory_management_technique/TestingL$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory_management_technique/TestingL$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memory_management_technique/kotlin/LabReport_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory_management_technique/kotlin/LabReport_4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,11 +52,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/memory_management_technique" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="memory_management_technique" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LabReport4">
+  <component name="RunManager" selected="Kotlin.LabReport_4Kt">
     <configuration name="LabReport4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="memory_management_technique.LabReport4" />
       <module name="ProcessSchedulingAlgo_Priority_Sjf_Fcfs" />
@@ -97,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="o" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="o" />
+    <configuration name="LabReport_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory_management_technique.kotlin.LabReport_4Kt" />
       <module name="ProcessSchedulingAlgo_Priority_Sjf_Fcfs" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LabReport_4Kt" />
         <item itemvalue="Application.LabReport4" />
         <item itemvalue="Application.TestingL$" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.O" />
-        <item itemvalue="Application.o" />
       </list>
     </recent_temporary>
   </component>
@@ -128,12 +131,25 @@
       <workItem from="1700769797481" duration="4000" />
       <workItem from="1700832212027" duration="7000" />
       <workItem from="1701258943649" duration="4000" />
-      <workItem from="1701328841060" duration="1855000" />
+      <workItem from="1701328841060" duration="3280000" />
     </task>
+    <task id="LOCAL-00001" summary="aight">
+      <option name="closed" value="true" />
+      <created>1701330997705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701330997705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aight" />
+    <option name="LAST_COMMIT_MESSAGE" value="aight" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
