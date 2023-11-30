@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79dbcd3f-cd24-41a7-9342-59f4d386e862" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProcessSchedulingAlgo_Priority_Sjf_Fcfs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memory_management_technique/LabReport4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memory_management_technique/LabReport4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory_management_technique/LabReport4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memory_management_technique/TestingL$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory_management_technique/TestingL$.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +45,17 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/msi/IdeaProjects/ProcessSchedulingAlgo_Priority_Sjf_Fcfs/src/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="memory_management_technique" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.LabReport4">
     <configuration name="LabReport4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="memory_management_technique.LabReport4" />
@@ -83,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestingL$" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory_management_technique.TestingL$" />
+      <module name="ProcessSchedulingAlgo_Priority_Sjf_Fcfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memory_management_technique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="o" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="o" />
       <module name="ProcessSchedulingAlgo_Priority_Sjf_Fcfs" />
@@ -93,6 +107,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LabReport4" />
+        <item itemvalue="Application.TestingL$" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.O" />
         <item itemvalue="Application.o" />
@@ -113,7 +128,7 @@
       <workItem from="1700769797481" duration="4000" />
       <workItem from="1700832212027" duration="7000" />
       <workItem from="1701258943649" duration="4000" />
-      <workItem from="1701328841060" duration="1063000" />
+      <workItem from="1701328841060" duration="1855000" />
     </task>
     <servers />
   </component>
