@@ -1,17 +1,35 @@
 package memory_management_technique;
 
+import java.util.Scanner;
+
 public class FirstFitContigiousMemoryAllocation {
     public static void main(String[] args) {
-        int blockSize[] = {5, 8, 10, 4};
-        int fileSize[] = {7, 4, 3};
-        int m = blockSize.length;
-        int n = fileSize.length;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of blocks: ");
+        int m = scanner.nextInt();
+        int blockSize[] = new int[m];
+        System.out.println("Enter the size of the blocks:-");
+        for (int i = 0; i < m; i++) {
+            System.out.print("Block " + (i+1) + ": ");
+            blockSize[i] = scanner.nextInt();
+        }
+
+        System.out.print("Enter the number of files: ");
+        int n = scanner.nextInt();
+        int fileSize[] = new int[n];
+        System.out.println("Enter the size of the files:-");
+        for (int i = 0; i < n; i++) {
+            System.out.print("File " + (i+1) + ": ");
+            fileSize[i] = scanner.nextInt();
+        }
 
         firstFit(blockSize, m, fileSize, n);
     }
 
     static void firstFit(int blockSize[], int m, int fileSize[], int n) {
         int allocation[] = new int[n];
+        int fragment[] = new int[n];
         for (int i = 0; i < allocation.length; i++)
             allocation[i] = -1;
 
@@ -19,17 +37,18 @@ public class FirstFitContigiousMemoryAllocation {
             for (int j=0; j<m; j++) {
                 if (blockSize[j] >= fileSize[i]) {
                     allocation[i] = j;
-                    blockSize[j] -= fileSize[i];
+                    fragment[i] = blockSize[j] - fileSize[i];
+                    blockSize[j] = 0;  // Block is no longer available
                     break;
                 }
             }
         }
 
-        System.out.println("File No.  File Size  Block No.  Block Size  Fragment");
+        System.out.println("File no.  File size  Block no.  Block size  Fragment");
         for (int i = 0; i < n; i++) {
             System.out.print("   " + (i+1) + "         " + fileSize[i] + "         ");
             if (allocation[i] != -1) {
-                System.out.print((allocation[i] + 1) + "         " + blockSize[allocation[i]] + "         " + (blockSize[allocation[i]] - fileSize[i]));
+                System.out.print((allocation[i] + 1) + "         " + (blockSize[allocation[i]] + fragment[i]) + "         " + fragment[i]);
             } else {
                 System.out.print("Not Allocated");
             }
@@ -37,3 +56,4 @@ public class FirstFitContigiousMemoryAllocation {
         }
     }
 }
+
